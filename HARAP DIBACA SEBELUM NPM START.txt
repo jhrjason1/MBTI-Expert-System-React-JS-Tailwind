@@ -1,0 +1,4 @@
+Karena project ini menggunakan animation on scroll (AOS)
+maka dipastikan terlebih dahulu untuk melakukan :
+
+npm install aos --save
