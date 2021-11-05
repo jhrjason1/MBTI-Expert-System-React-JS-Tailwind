@@ -1,10 +1,14 @@
 import React from 'react'
+import TitleSearch from '../components/TitleSearch'
+import PersonalityTypes from '../components/PersonalityTypes'
+
 
 const Personalities = () => {
     return (
-        <div>
-            <h1>hi</h1>
-        </div>
+        <>
+            <TitleSearch/>
+            <PersonalityTypes/>
+        </>
     )
 }
 
