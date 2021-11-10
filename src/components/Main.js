@@ -8,7 +8,7 @@ const Main = () => {
                 Find Your Personality !
             </h1>
             <Link className="py-6 px-10 bg-yellow-300 rounded-full text-3xl hover:bg-yellow-400 transition duration-300 ease-in-out
-            flex items-center animate-bounce my-16" to="/">
+            flex items-center animate-bounce my-16" to="/test">
                 Begin Test
                 <svg 
                     xmlns="http://www.w3.org/2000/svg" 

@@ -3,7 +3,7 @@ import React from 'react'
 const TitleSearch = () => {
     return (
         <div className="bg-white bg-opacity-90 h-screen flex flex-col items-center">
-            <h1 className="lg:text-5xl md:text-3xl sm:text-2xl text-1xl font-black mb-14 text-indigo-900 mt-48">
+            <h1 className="lg:text-5xl md:text-3xl sm:text-2xl text-1xl font-black mb-14 text-indigo-900 mt-24">
                 Search for Your Personality Details Here
             </h1>
             <div className="py-6 px-10 lg:text-xl md:text-base sm:text-base
