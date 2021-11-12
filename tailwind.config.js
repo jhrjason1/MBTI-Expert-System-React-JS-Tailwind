@@ -9,6 +9,11 @@ module.exports = {
       backgroundImage: {
         'home-background': "url('./images/background-mbti3.jpg')"
       },
+      fontFamily: {
+        lato: "'Lato', sans-serif",
+        changa: ['Changa', 'sans-serif'],
+        staat: ['Staatliches', 'cursive'],
+      },
     },
   },
   variants: {

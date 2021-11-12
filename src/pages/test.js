@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const test = () => {
     return (
@@ -34,8 +35,8 @@ const test = () => {
                     <input type="radio" value="Benar" /><label>Agree </label>
                 </div>  
             </div>
-            <div className="py-4 px-10 bg-yellow-300 rounded-full text-3xl hover:bg-yellow-400 transition duration-300 ease-in-out
-            flex items-center my-16 cursor-pointer" to="/">
+            <Link className="py-4 px-10 bg-yellow-300 rounded-full text-3xl hover:bg-yellow-400 transition duration-300 ease-in-out
+            flex items-center my-16 cursor-pointer" to="/result">
                 Submit 
                 <svg 
                     xmlns="http://www.w3.org/2000/svg" 
@@ -48,7 +49,7 @@ const test = () => {
                     strokeLinejoin="round" 
                     strokeWidth={2} d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-            </div>
+            </Link>
         </div>            
     )
 }

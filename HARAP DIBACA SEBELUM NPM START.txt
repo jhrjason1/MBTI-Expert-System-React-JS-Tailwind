@@ -1,4 +1,5 @@
-Karena project ini menggunakan animation on scroll (AOS)
-maka dipastikan terlebih dahulu untuk melakukan :
+Lakukan instalisasi node modules :
+npm install pada folder project
 
+Instalisasi AOS (Animation On Scroll) :
 npm install aos --save
